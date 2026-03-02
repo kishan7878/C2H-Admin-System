@@ -1,0 +1,58 @@
+# Backend
+backend/node_modules/
+backend/.env
+backend/npm-debug.log
+backend/yarn-error.log
+backend/package-lock.json
+backend/yarn.lock
+
+# Android
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.apk
+*.ap_
+*.aab
+
+# Admin Panel
+admin-panel/.gradle/
+admin-panel/.idea/
+admin-panel/build/
+admin-panel/app/build/
+admin-panel/local.properties
+admin-panel/*.iml
+
+# Client App
+client-app/.gradle/
+client-app/.idea/
+client-app/build/
+client-app/app/build/
+client-app/local.properties
+client-app/*.iml
+
+# Keystore files (NEVER commit these!)
+*.jks
+*.keystore
+
+# Firebase
+**/google-services.json
+firebase-adminsdk-*.json
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
